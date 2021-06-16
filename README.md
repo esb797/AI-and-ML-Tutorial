@@ -38,9 +38,9 @@ Terminology:
 - false positive (FP): the actual label is negative, and the prediction is positive.
 - false negative (FN): the actual label is positive, and the prediction is negative.
 - true positive rate (TPR) or recall:
-  <img src="https://render.githubusercontent.com/render/math?math=TPR = \frac{TP}{TP %2B FN}">
+  - <img src="https://render.githubusercontent.com/render/math?math=TPR = \frac{TP}{TP %2B FN}">
 - positive predictive value (PPV) or precision:
-  <img src="https://render.githubusercontent.com/render/math?math=PPV = \frac{TP}{TP %2B FP}">
+  - <img src="https://render.githubusercontent.com/render/math?math=PPV = \frac{TP}{TP %2B FP}">
 
 Confusion matrix: a table layout to visualize the model performance.
 
@@ -48,7 +48,7 @@ Classification model quality metrics:
 - Accuracy: ratio of correct predictions to all predictions
 - AUC: area under the curve (true positive rate vs. false positive rate)
 - F1 score: harmonic mean of precision and recall
-   <img src="https://render.githubusercontent.com/render/math?math=F_{1} = \frac{2TP}{2TP %2B FP %2B FN}}">
+   - <img src="https://render.githubusercontent.com/render/math?math=F_{1} = \frac{2TP}{2TP %2B FP %2B FN}">
 
 ### Classification Tutorial
 
@@ -112,18 +112,18 @@ Level: Intermediate
 Time: approximately 1 hour for each tutorial
 
 - Diabetes disease progression prediction:
->- [Set up the workspace and dev environment](https://docs.microsoft.com/en-us/azure/machine-learning/tutorial-1st-experiment-sdk-setup)
->- [Train the model](https://docs.microsoft.com/en-us/azure/machine-learning/tutorial-1st-experiment-sdk-train)
+   - [Set up the workspace and dev environment](https://docs.microsoft.com/en-us/azure/machine-learning/tutorial-1st-experiment-sdk-setup)
+   - [Train the model](https://docs.microsoft.com/en-us/azure/machine-learning/tutorial-1st-experiment-sdk-train)
 - Image classification (MNIST data):
 
->- [Train a model](https://docs.microsoft.com/en-us/azure/machine-learning/tutorial-train-models-with-aml)
->- [Deploy a model](https://docs.microsoft.com/en-us/azure/machine-learning/tutorial-deploy-models-with-aml)
+   - [Train a model](https://docs.microsoft.com/en-us/azure/machine-learning/tutorial-train-models-with-aml)
+   - [Deploy a model](https://docs.microsoft.com/en-us/azure/machine-learning/tutorial-deploy-models-with-aml)
 
 - Regression with Automated ML (NYC Taxi data)
->- [Auto-train an ML model](https://docs.microsoft.com/en-us/azure/machine-learning/tutorial-auto-train-models)
+   - [Auto-train an ML model](https://docs.microsoft.com/en-us/azure/machine-learning/tutorial-auto-train-models)
 
 - Azure Machine Learning Examples
->- [GitHub Repo](https://github.com/Azure/azureml-examples)
+   - [GitHub Repo](https://github.com/Azure/azureml-examples)
 
 ## Deep Learning
 Deep learning is a type of machine learning (within the machine learning field) and it is based on artificial neural networks.
