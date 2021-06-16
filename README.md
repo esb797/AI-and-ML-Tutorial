@@ -28,8 +28,8 @@ A classification model can be categorized into two types: binary and multi-class
 
 - Binary: 0 or 1. For example, we need to predict whether a picture is a dog or not-a-dog.
 - Multi-class: more than 2 classes (target values). For example, we have four kinds of animal pictures (dog, cat, mouse, and pig) and we need to predict if a picture is a dog or a cat or a mouse or a pig
-$\qquad$ - One vs. Rest: In each step, we consider one class at a time. Using the same example of four animals, at first, we consider a dog as a positive and all other animals as negative. So, the first stage is predicting if a picture is a dog or not-a-dog. And we repeat for the rest of the three animals.
-$\qquad$ - One vs. One: A training is conducted at once by considering all animal pictures. 
+-   - One vs. Rest: In each step, we consider one class at a time. Using the same example of four animals, at first, we consider a dog as a positive and all other animals as negative. So, the first stage is predicting if a picture is a dog or not-a-dog. And we repeat for the rest of the three animals.
+-   - One vs. One: A training is conducted at once by considering all animal pictures. 
 
 Terminology:
 
