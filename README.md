@@ -1,7 +1,3 @@
-
-[[_TOC_]]
-
-
 # What is AI?
 The Artificial Intelligence (AI) is a big umbrella that covers all classical programming, machine learning, and deep learning. Two famous cases are a Jeopardy quiz show and a game of Go. In the case of a Jeopardy quiz show, the IBM’s Q&A system Watson defeated the two Jeopardy champions. In the case of a game Go, the AlphaGo won 4 out of 5 games of Go in a match with a Go champion in 2016 and again won a three-game match with the No. 1 ranking player in 2017.
 
@@ -16,8 +12,6 @@ An algorithm is a method or a procedure to solve a problem. Whereas a model is a
 Machine learning (ML) is the study of computer algorithms that improve automatically through experience. It is seen as a subset of [artificial intelligence](https://en.wikipedia.org/wiki/Artificial_intelligence). Machine learning algorithms build a [mathematical model](https://en.wikipedia.org/wiki/Mathematical_model) based on sample data, known as ["training data"](https://en.wikipedia.org/wiki/Training_data), in order to make predictions or decisions without being explicitly programmed to do so. Machine learning algorithms are used in a wide variety of applications, such as [email filtering](https://en.wikipedia.org/wiki/Email_filtering) and [computer vision](https://en.wikipedia.org/wiki/Computer_vision), where it is difficult or infeasible to develop conventional algorithms to perform the needed tasks (source: [Wikipedia](https://en.wikipedia.org/wiki/Machine_learning)).
 
 When a rule or logic of the process or system is known that rule can be written as a program (algorithm) to automate the process or system without repeating it over. However, when a rule or logic or pattern is not known, using the existing data (typically, the historical data), one can learn the rules through the machine learning (ML) algorithms. Therefore, the easy way to see distinguish the ML is to see if the rules are known or not.
-
-![image.png](/.attachments/image-c7b6095a-b15b-4393-9bc5-30372b0891fb.png)
 
 ### Supervised Machine Learning
 
@@ -44,7 +38,7 @@ Terminology:
 - false positive (FP): the actual label is negative, and the prediction is positive.
 - false negative (FN): the actual label is positive, and the prediction is negative.
 - true positive rate (TPR) or recall:
->> $\displaystyle{\mathrm{TPR = \frac{TP}{TP + FN}}}$
+>> $$\mathrm{TPR = \frac{TP}{TP + FN}}}$$
 - positive predictive value (PPV) or precision:
 >> $\displaystyle{\mathrm{PPV = \frac{TP}{TP + FP}}}$
 
@@ -59,6 +53,7 @@ Classification model quality metrics:
 ### Classification Tutorial
 
 Level: Beginner
+
 Time: approximately 1 hour for each tutorial
 
 - [Logistic Regression](https://careerfoundry.com/en/blog/data-analytics/what-is-logistic-regression/): [tutorial](https://nickmccullum.com/python-machine-learning/logistic-regression-python/)
@@ -72,6 +67,7 @@ A recommendation engine (system) can be categorized into two types: collaborativ
 ### Recommendation Engine Tutorials
 
 Level: Beginner
+
 Time: approximately 1 hour for each tutorial
 
 - [Recommender Systems with Python — Part I: Content-Based Filtering](https://heartbeat.fritz.ai/recommender-systems-with-python-part-i-content-based-filtering-5df4940bd831)
@@ -89,6 +85,7 @@ If the anomaly is not known or too rare for the supervised machine learning, we 
 ### Anomaly Detection Tutorials
 
 Level: Beginner
+
 Time: approximately 1 hour for each tutorial
 
 - [Anomaly Detection for Dummies](https://towardsdatascience.com/anomaly-detection-for-dummies-15f148e559c1)
@@ -102,6 +99,7 @@ A topic model is a type of statistical model to discover “topics” or “them
 ### Topic Model Tutorials
 
 Level: Intermediate
+
 Time: approximately 1 hour for each tutorial
 
 - https://nlpforhackers.io/topic-modeling/
@@ -110,6 +108,7 @@ Time: approximately 1 hour for each tutorial
 ## Azure Machine Learning Tutorials
 
 Level: Intermediate
+
 Time: approximately 1 hour for each tutorial
 
 - Diabetes disease progression prediction:
@@ -130,6 +129,7 @@ Time: approximately 1 hour for each tutorial
 Deep learning is a type of machine learning (within the machine learning field) and it is based on artificial neural networks.
 
 Level: Advanced
+
 Time: varies for each topic
 
 - [PyTorch Tutorial](https://pytorch.org/tutorials/)
