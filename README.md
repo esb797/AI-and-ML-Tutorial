@@ -28,8 +28,8 @@ A classification model can be categorized into two types: binary and multi-class
 
 - Binary: 0 or 1. For example, we need to predict whether a picture is a dog or not-a-dog.
 - Multi-class: more than 2 classes (target values). For example, we have four kinds of animal pictures (dog, cat, mouse, and pig) and we need to predict if a picture is a dog or a cat or a mouse or a pig
--   - One vs. Rest: In each step, we consider one class at a time. Using the same example of four animals, at first, we consider a dog as a positive and all other animals as negative. So, the first stage is predicting if a picture is a dog or not-a-dog. And we repeat for the rest of the three animals.
--   - One vs. One: A training is conducted at once by considering all animal pictures. 
+   - One vs. Rest: In each step, we consider one class at a time. Using the same example of four animals, at first, we consider a dog as a positive and all other animals as negative. So, the first stage is predicting if a picture is a dog or not-a-dog. And we repeat for the rest of the three animals.
+   - One vs. One: A training is conducted at once by considering all animal pictures. 
 
 Terminology:
 
@@ -38,9 +38,9 @@ Terminology:
 - false positive (FP): the actual label is negative, and the prediction is positive.
 - false negative (FN): the actual label is positive, and the prediction is negative.
 - true positive rate (TPR) or recall:
-$\qquad$ <img src="https://render.githubusercontent.com/render/math?math=TPR = \frac{TP}{TP %2B FN}">
+  <img src="https://render.githubusercontent.com/render/math?math=TPR = \frac{TP}{TP %2B FN}">
 - positive predictive value (PPV) or precision:
-$\qquad$ <img src="https://render.githubusercontent.com/render/math?math=PPV = \frac{TP}{TP %2B FP}">
+  <img src="https://render.githubusercontent.com/render/math?math=PPV = \frac{TP}{TP %2B FP}">
 
 Confusion matrix: a table layout to visualize the model performance.
 
@@ -48,7 +48,7 @@ Classification model quality metrics:
 - Accuracy: ratio of correct predictions to all predictions
 - AUC: area under the curve (true positive rate vs. false positive rate)
 - F1 score: harmonic mean of precision and recall
->> $\displaystyle{\mathrm{F_{1} = \frac{2TP}{2TP + FP + FN}}}$
+   <img src="https://render.githubusercontent.com/render/math?math=F_{1} = \frac{2TP}{2TP %2B FP %2B FN}}">
 
 ### Classification Tutorial
 
